@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plant Details</title>
+  </head>
+  <body>
+    <h1>Plant Details</h1>
+    <form method="POST">
+      <label for="plant_name">Enter the name of the plant:</label><br>
+      <input type="text" id="plant_name" name="plant_name"><br><br>
+      <label for="details">Select the details you want:</label><br>
+      <select name="details" id="details">
+        <option value="all">All Details</option>
+        <option value="scientific_name">Scientific Name</option>
+        <option value="flower_type">Flower Type</option>
+        <option value="seed_type">Seed Type</option>
+        <option value="season_type">Season Type</option>
+        <option value="ph">pH Level</option>
+        <option value="soil">Soil Type</option>
+        <option value="nutrition">Nutrition Need</option>
+        <option value="harvest">Harvest Time</option>
+        <option value="compatibility">Plant Compatibility</option>
+      </select><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
